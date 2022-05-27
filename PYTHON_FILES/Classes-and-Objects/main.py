@@ -1,13 +1,11 @@
 class Student:
     # [assignment] Skeleton class. Add your code here
-    def __init__(self, **kwargs):
-        self.name = "name"
-        self.age = "age"
-        self.tracks = "tracks"
-        self.score = "score"
+    def __init__(self, **kward):
+        self.name = kward["name"]
+        self.age = kward["age"]
+        self.tracks = kward["tracks"]
+        self.score = kward["score"]
 
-    def __init__(self):
-        pass
     def change_name(self, new_name):
         self.name = new_name
     def change_age(self, new_age):
