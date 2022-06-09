@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1f688fba;
+    font-family: 'Arial';
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.form {
+    width: 400px;
+    overflow: hidden;
+    margin: auto;
+    padding: 70px;
+    background-color: #23463f;
+    border-radius: 15px;
+}
+.log {
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 20px;
+
+}
+
+label {
+    color: #08ffd1;
+    font-size: 20px;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+    padding-left: 20px;
+}
