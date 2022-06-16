@@ -1,0 +1,120 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    
+    background-color: hsl(0, 0%, 95%);
+                             
+}
+
+main{
+    font-family: "Lexend Deca";
+font-size: 15px;
+display: flex;
+padding: 20px;
+align-items: center;
+justify-content: center;
+width: 1440px;
+height: 80vh;
+margin: auto;
+
+}
+
+
+h2{
+    
+    color: hsl(0, 0%, 95%);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+
+.main-paragraph {
+    color: hsl(0,0%,100%,0.75);
+    padding-bottom: 80px;
+    line-height: 40px;
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding: 3em;
+    
+}
+
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 3em;
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 3em;
+}
+
+
+#button1{ 
+    text-decoration:none;
+    border-radius:20px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    padding:10px 20px;
+    font-size: bold;
+    border: none;
+ 
+}
+
+#button1:hover{
+    color:hsl(0,0%,95%);
+    padding:10px 20px;
+    text-decoration:none;
+    background:hsl(31, 77%, 52%);
+    border-radius:20px;
+    border:2px solid hsl(0,0%,95%);
+}
+
+#button2{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border-radius: 25px;
+    padding:10px 20px;
+    text-decoration:none;
+    font-size: bold;
+    border: none;
+
+}
+
+#button2:hover{
+    color:hsl(0,0%,95%);
+    padding:10px 20px;
+    text-decoration:none;
+    background-color: hsl(184, 100%, 22%);
+    border-radius:20px;
+    border:2px solid hsl(0,0%,95%);
+}
+
+#button3{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border-radius: 25px;
+    padding:10px 20px;
+    text-decoration:none;
+    font-size: bold;
+    border: none;
+}
+
+#button3:hover{
+    color:hsl(0,0%,95%);
+    padding:10px 20px;
+    text-decoration:none;
+    background:hsl(179, 100%, 13%);
+    border-radius:20px;
+    border:2px solid hsl(0,0%,95%);
+}
