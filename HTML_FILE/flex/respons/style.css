@@ -13,9 +13,10 @@ body{
 }
 
 h1{
-    font-size: bold;
+    font-weight: bold;
     padding-bottom: 20px;
     font-weight: 700;
+    
 
 }
 
@@ -29,12 +30,20 @@ h1{
     background-color: hsl(248, 32%, 49%);
     padding: 25px;
     border-radius: 13px;
+    border-bottom-color:  hsl(0, 78%, 66%);
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
 }
 .form{
     background-color: white;
     border-radius: 10px;
     padding: 30px;
     width: 470px;
+    border-bottom-color:  hsl(0, 78%, 66%);
+    border-bottom-width: 10px;
+    border-style: solid;
+
+    border-style: solid;
 
 }
 
@@ -53,12 +62,15 @@ input{
 }
 
 #title{
-    color: rgb(156, 140, 140);
+    color: rgb(175, 143, 143);
     font-size: 11px;
-    font-size: bold;
     text-align: center;
     padding: 20px;
-    font-weight: 400px;
+}
+#terms{
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(122, 100, 100);
 }
 
 main{
@@ -73,3 +85,5 @@ main{
 
     align-items: center;
 }
+
+
