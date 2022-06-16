@@ -5,29 +5,28 @@
 
 body{
     
-    background-color: hsl(0, 0%, 95%);
-                             
+    background-color: hsl(0, 0%, 95%);                           
 }
 
 main{
-    font-family: "Lexend Deca";
-font-size: 15px;
-display: flex;
-padding: 20px;
-align-items: center;
-justify-content: center;
-width: 1440px;
-height: 80vh;
-margin: auto;
+    font-family: "Lexend Deca" ;
+    font-size: 15px;
+    display:flex;
+    place-content: center;
+    padding:50px;
 
 }
 
-
-h2{
+div {
+    width:300px;
+    padding:15px;
+}
+h1{
     
     color: hsl(0, 0%, 95%);
     padding-top: 25px;
     padding-bottom: 25px;
+    font-weight: bold;
 }
 
 
@@ -117,4 +116,28 @@ h2{
     background:hsl(179, 100%, 13%);
     border-radius:20px;
     border:2px solid hsl(0,0%,95%);
+}
+
+@media screen and (max-width:948px){
+    main{
+        font-family: "Lexend Deca" ;
+        font-size: 15px;
+        display:flex;
+        place-items: center center;
+        padding:30px;
+        flex-direction: column;
+    }
+    .sedans{
+        
+        background:hsl(31, 77%, 52%);
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 0px;
+    }
+    .luxury{
+        background-color: hsl(179, 100%, 13%);
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        border-top-right-radius: 0px;
+    }
 }
