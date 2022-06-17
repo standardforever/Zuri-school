@@ -3,11 +3,13 @@
     margin: 0;
     font-family:Poppins;
     
+    
 }
 
 body{
     background-image: url(bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%);
+    flex-wrap: wrap;
    
     
 }
@@ -79,37 +81,29 @@ main{
     height: 100vh;
     align-items: center;
     justify-content: center;
-    width: 1440px;
+    
     color: white;
     font-size: 16px;
 
     align-items: center;
 }
 
+
 input:invalid{
     background: url("icon-error.svg") no-repeat 98%, 50%;
     background-size: 25px;
 }
 
-.input-container{
-    margin-bottom: 15px;
-    max-width: 300px;
-}
-.input-container[data-error] .input{
-    border-color: rgb(75, 75, 62);
-    color: black;
-    background: green;
-}
 
-.input-container[data-error]::after{
-    content: attr(data-error);
 
-}
+@media screen and (max-width: 375px)
+{
+    body{
+        background-image: url("big-into-mobile.png");
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
 
-.input{
-    display: block;
-    width: 100%;
-    padding: 12px;
-    border: 1px solid red;
-    border-radius: 4px;
 }

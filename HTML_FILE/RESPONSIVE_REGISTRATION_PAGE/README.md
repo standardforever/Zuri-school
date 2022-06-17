@@ -1,1 +1,2 @@
-This directory contains a single-page responsive registration form using Html and Css.
+# responsive_registration
+responsive form built with html and css
