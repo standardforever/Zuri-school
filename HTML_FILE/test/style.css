@@ -9,8 +9,6 @@
 body{
     background-image: url(bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%);
-    flex-wrap: wrap;
-   
     
 }
 
@@ -76,7 +74,8 @@ input{
 }
 
 main{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     margin: auto;
     height: 100vh;
     align-items: center;
@@ -96,14 +95,13 @@ input:invalid{
 
 
 
-@media screen and (max-width: 375px)
-{
-    body{
-        background-image: url("big-into-mobile.png");
+@media (max-width:375px) {
+    main {
+        grid-template-columns: 1fr;
+        row-gap: 2em;
+        background: url('./bg-intro-mobile.png')hsl(0, 100%, 74%) no-repeat;
+        margin: 0;
     }
-    main{
-        display: flex;
-        flex-direction: column;
-    }
+}
 
 }
