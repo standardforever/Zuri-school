@@ -1,0 +1,23 @@
+<div class="mockups">
+            <p class="head">
+            <figure>
+                <img src="logo.svg" alt="" width="300" height="100" class="float-img1">
+            </figure>
+            <figcaption>
+                Try it Free
+            </figcaption>
+            </p>
+
+            <p class="par">
+            <figure><img src="illustration-mockups.svg" alt="" class="float-img"></figure>
+            <figcaption>
+                <h2>Build The Community <br> Your Fans Will Love <br></h2>
+                Huddle re-imagines the way we build Communities. You have <br>
+                a voice, but so does your audience. Create connections with <br>
+                your users as you engage in genuine discussion. <br>
+                <button>Get Started For Free</button>
+            </figcaption>
+
+            </p>
+
+        </div>

@@ -13,9 +13,10 @@ body{
 }
 
 main{
+    grid-template-columns: 220px 150px 210px;
+    grid-template-rows: 180px 90px 120px;
     display: grid;
     grid-template-areas:
-    'a a b'
     'a a b'
     'c d d'
     'c e e' ;

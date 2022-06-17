@@ -86,4 +86,30 @@ main{
     align-items: center;
 }
 
+input:invalid{
+    background: url("icon-error.svg") no-repeat 98%, 50%;
+    background-size: 25px;
+}
 
+.input-container{
+    margin-bottom: 15px;
+    max-width: 300px;
+}
+.input-container[data-error] .input{
+    border-color: rgb(75, 75, 62);
+    color: black;
+    background: green;
+}
+
+.input-container[data-error]::after{
+    content: attr(data-error);
+
+}
+
+.input{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid red;
+    border-radius: 4px;
+}
