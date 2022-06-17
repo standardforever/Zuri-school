@@ -1,7 +1,10 @@
     @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;700&family=Lexend+Deca:wght@300;400&family=Poppins:wght@500&display=swap');
+
+
     .container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        
         align-items: center;
         background: url('./images/bg-intro-desktop.png')hsl(0, 100%, 74%) no-repeat;
         height: max-content;
@@ -11,7 +14,7 @@
         margin: 1%;
         box-shadow: 2px 2px 4px inset grey;
     }
-    
+
     * {
         margin: 0;
         padding: 0;
@@ -19,25 +22,27 @@
         font-family: 'Poppins', sans-serif;
     }
     
-    .container div:first-child>h1 {
+    h1 {
         color: white;
         font-size: 3em;
         margin-bottom: 3%;
         margin-top: 8%;
     }
     
-    .container div:first-child>p {
+    
+    p {
         color: white;
         width: 90%;
     }
     
-    .container div:nth-child(2)>form {
+    form {
         padding: 2em;
         background-color: white;
         border-radius: 10px;
+        
     }
     
-    .container div:nth-child(2)>form input {
+    input {
         width: 100%;
         margin-top: 1.5em;
         height: 40px;
@@ -45,7 +50,7 @@
         border-radius: 3px;
     }
     
-    .container div:nth-child(2)>button {
+    .button1 {
         width: 100%;
         margin-top: 1em;
         padding: 1em 1em;
@@ -57,13 +62,13 @@
         box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, .5);
     }
     
-    .container div:nth-child(2)>form>small>a {
+    a {
         color: hsl(0, 100%, 74%);
         font-weight: bold;
         text-decoration: none;
     }
     
-    .container div:nth-child(2)>form button {
+    form button {
         width: 100%;
         margin: 1em 0;
         padding: 1em 1em;
@@ -74,7 +79,7 @@
         box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, .5);
     }
     
-    .container div:nth-child(2)>form button:active {
+form button:active {
         opacity: .5;
         cursor: pointer;
     }
